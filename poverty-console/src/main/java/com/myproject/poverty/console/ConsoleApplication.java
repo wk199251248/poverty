@@ -11,10 +11,10 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 /**
  * Created by miracle on 2017/2/28.
  */
-@Configuration
 @ComponentScan
-@EnableAutoConfiguration
 @ServletComponentScan
+@Configuration
+@EnableAutoConfiguration
 @EnableTransactionManagement
 @EnableCaching
 public class ConsoleApplication {

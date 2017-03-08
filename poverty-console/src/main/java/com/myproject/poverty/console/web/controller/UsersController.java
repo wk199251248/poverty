@@ -21,7 +21,7 @@ public class UsersController extends BaseController {
     @Autowired
     private IUsersService usersService;
 
-    @RequestMapping("/findAllUsers")
+    @RequestMapping("/view/findAllUsers")
     @ResponseBody
     public List<Users> findAllUsers(){
         return usersService.findAllUsers();
